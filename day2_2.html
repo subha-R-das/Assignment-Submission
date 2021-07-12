@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Pallindromes in a sentence</title>
+</head>
+<body>
+    <script>
+        let s = " maddam loves to ridde racecar at noon in idapadi"
+        
+
+        s= s+" "
+        word = ""
+        for(t of s){
+            if(t != " " ){
+                word = word + t
+                i3=0
+            }
+            else{
+                x = word
+                word =""
+                if (x[0] == x[x.length - 1]){
+                    console.log(x)
+                }
+            }
+        }
+
+
+    </script>
+</body>
+</html>
